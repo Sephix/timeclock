@@ -1,0 +1,2843 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Aborting connect, error determining connect sequence.
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+
+cljs꞉cljs.user꞉> 
+
+cljs꞉cljs.user꞉> 
+
+cljs꞉cljs.user꞉> 
+
+cljs꞉cljs.user꞉> 
+
+cljs꞉cljs.user꞉> 
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+console is not a function
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.header.core/tata
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+"tat".call is not a function
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.header.core/<-
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var frontend.components.header.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+#js {:debug #object[debug], :error #object[error], :info #object[info], :log #object[log], :warn #object[warn], :dir #object[dir], :dirxml #object[dirxml], :table #object[table], :trace #object[trace], :group #object[group], :groupCollapsed #object[groupCollapsed], :groupEnd #object[groupEnd], :clear #object[clear], :count #object[count], :countReset #object[countReset], :assert #object[assert], :profile #object[profile], :profileEnd #object[profileEnd], :time #object[time], :timeLog #object[timeLog], :timeEnd #object[timeEnd], :timeStamp #object[timeStamp], :context #object[context], :memory #js {:totalJSHeapSize 72200000, :usedJSHeapSize 56800000, :jsHeapSizeLimit 3760000000}}
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:13
+ Use of undeclared Var frontend.components.header.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:13
+ Use of undeclared Var frontend.components.header.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:13
+ Use of undeclared Var frontend.components.header.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:13
+ Use of undeclared Var frontend.components.header.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+console is not a function
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.header.core/log
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.header.core/log
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.header.core/log
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+[object Object] is not ISeqable
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+nil
+cljs꞉frontend.components.header.core꞉> 
+#object[Function]
+cljs꞉frontend.components.header.core꞉> 
+#object[Function]
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function (){
+return module$node_modules$antd$lib$index.Header();
+} is not ISeqable
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function (){
+return module$node_modules$antd$lib$index.Header();
+} is not ISeqable
+cljs꞉frontend.components.header.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function (){
+return module$node_modules$antd$lib$index.Header();
+} is not ISeqable
+cljs꞉frontend.components.header.core꞉> 
+"11:23:17"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:18"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:19"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:19"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:28"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:29"
+cljs꞉frontend.views.timeclock꞉> 
+"11:23:29"
+cljs꞉frontend.views.timeclock꞉> 
+#object[cljs$core$test]
+cljs꞉frontend.views.timeclock꞉> 
+#object[cljs$core$test]
+cljs꞉frontend.views.timeclock꞉> 
+#object[cljs$core$test]
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+"test"
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+#'frontend.views.timeclock/saysHello
+cljs꞉frontend.views.timeclock꞉> 
+#'frontend.views.timeclock/saysHello
+cljs꞉frontend.views.timeclock꞉> 
+"Hello"
+cljs꞉frontend.views.timeclock꞉> 
+#object[frontend$views$timeclock$saysHello]
+cljs꞉frontend.views.timeclock꞉> 
+:repl/exception!
+; 
+; Execution error (ReferenceError) at (<cljs repl>:1).
+Console is not defined
+cljs꞉frontend.views.timeclock꞉> 
+:repl/exception!
+; 
+; Execution error (ReferenceError) at (<cljs repl>:1).
+Console is not defined
+cljs꞉frontend.views.timeclock꞉> 
+:repl/exception!
+; 
+; Execution error (ReferenceError) at (<cljs repl>:1).
+Console is not defined
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+nil
+cljs꞉frontend.views.timeclock꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+##NaN
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+1664632351480
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Date.now.getMonth is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Date.now.getMonth is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Date.getMonth is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+#object[Date]
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:54:15.845-00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:54:15.845-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:54:15.845-00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:54:15.845-00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:23
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:54:15.845-00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (def currentMonth (-> (.getMonth) (js/Date.)))
+no source by provide: frontend.components.table.core
+{:provide frontend.components.table.core}
+ExceptionInfo: no source by provide: frontend.components.table.core
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--14911/fn--14912 (repl.clj:446)
+	shadow.cljs.repl/repl-compile/fn--14911 (repl.clj:422)
+	shadow.cljs.repl/repl-compile (repl.clj:420)
+	shadow.cljs.repl/repl-compile (repl.clj:417)
+	shadow.cljs.repl/process-read-result (repl.clj:508)
+	shadow.cljs.repl/process-read-result (repl.clj:484)
+	shadow.cljs.repl/process-input (repl.clj:647)
+	shadow.cljs.repl/process-input (repl.clj:625)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:698)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:688)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111/fn--15119 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; currentMonth
+no source by provide: frontend.components.table.core
+{:provide frontend.components.table.core}
+ExceptionInfo: no source by provide: frontend.components.table.core
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--14911/fn--14912 (repl.clj:446)
+	shadow.cljs.repl/repl-compile/fn--14911 (repl.clj:422)
+	shadow.cljs.repl/repl-compile (repl.clj:420)
+	shadow.cljs.repl/repl-compile (repl.clj:417)
+	shadow.cljs.repl/process-read-result (repl.clj:508)
+	shadow.cljs.repl/process-read-result (repl.clj:484)
+	shadow.cljs.repl/process-input (repl.clj:647)
+	shadow.cljs.repl/process-input (repl.clj:625)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:698)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:688)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111/fn--15119 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (def currentMonth (-> .getMonth js/Date.))
+no source by provide: frontend.components.table.core
+{:provide frontend.components.table.core}
+ExceptionInfo: no source by provide: frontend.components.table.core
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--14911/fn--14912 (repl.clj:446)
+	shadow.cljs.repl/repl-compile/fn--14911 (repl.clj:422)
+	shadow.cljs.repl/repl-compile (repl.clj:420)
+	shadow.cljs.repl/repl-compile (repl.clj:417)
+	shadow.cljs.repl/process-read-result (repl.clj:508)
+	shadow.cljs.repl/process-read-result (repl.clj:484)
+	shadow.cljs.repl/process-input (repl.clj:647)
+	shadow.cljs.repl/process-input (repl.clj:625)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:698)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:688)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111/fn--15119 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; currentMonth
+no source by provide: frontend.components.table.core
+{:provide frontend.components.table.core}
+ExceptionInfo: no source by provide: frontend.components.table.core
+	shadow.build.data/get-source-id-by-provide (data.clj:192)
+	shadow.build.data/get-source-id-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:195)
+	shadow.build.data/get-source-by-provide (data.clj:194)
+	shadow.cljs.repl/repl-compile/fn--14911/fn--14912 (repl.clj:446)
+	shadow.cljs.repl/repl-compile/fn--14911 (repl.clj:422)
+	shadow.cljs.repl/repl-compile (repl.clj:420)
+	shadow.cljs.repl/repl-compile (repl.clj:417)
+	shadow.cljs.repl/process-read-result (repl.clj:508)
+	shadow.cljs.repl/process-read-result (repl.clj:484)
+	shadow.cljs.repl/process-input (repl.clj:647)
+	shadow.cljs.repl/process-input (repl.clj:625)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:698)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:688)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111/fn--15119 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T13:58:40.240-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+9
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:5
+ Use of undeclared Var frontend.components.table.core/monthTraduction
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/monthTraduction
+cljs꞉frontend.components.table.core꞉> 
+"February"
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+currentMonth
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+currentMonth
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of null (reading 'call')
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+:9
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+:9
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+"October"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonthString
+cljs꞉frontend.components.table.core꞉> 
+"October"
+cljs꞉frontend.components.table.core꞉> 
+"October"
+cljs꞉frontend.components.table.core꞉> 
+"October"
+cljs꞉frontend.components.table.core꞉> 
+#object[frontend$components$table$core$TableHeader]
+cljs꞉frontend.components.table.core꞉> 
+122
+cljs꞉frontend.components.table.core꞉> 
+2022
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/TableTitle
+cljs꞉frontend.components.table.core꞉> 
+"October 2022"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentDay
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+(intermediate value).getDay(...).call is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentDay
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentDay
+cljs꞉frontend.components.table.core꞉> 
+0
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentDay
+cljs꞉frontend.components.table.core꞉> 
+2
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "1970-01-20T06:23:24.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+100
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "1970-01-20T06:23:24.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "1970-01-20T06:24:53.904-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateTime
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-02T06:58:24.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/convertEpochdate
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T06:00:00.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-01T06:00:00.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "0NaN-NaN-NaNTNaN:NaN:NaN.NaN-00:00"
+cljs꞉frontend.components.table.core꞉> 
+
+; [line 1, col 10] Invalid number: 10/14/2022.
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-10-13T22:00:00.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/convertDateToEpoch
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+String.format is not a function
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:14
+ Use of undeclared Var frontend.components.table.core/gstring
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:14
+ Use of undeclared Var frontend.components.table.core/gstring
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+String.format is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/convertDateToEpoch
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-01-09T23:00:00.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+#inst "2022-01-09T23:00:00.000-00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+1641769200000
+cljs꞉frontend.components.table.core꞉> 
+6.09099013430146E-10
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/convertDateToEpoch
+cljs꞉frontend.components.table.core꞉> 
+1641769200
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (5) passed to frontend.components.table.core/convertDateToEpoch
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (5) passed to frontend.components.table.core/convertDateToEpoch
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (5) passed to frontend.components.table.core/convertDateToEpoch
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/convertDateToEpoch
+cljs꞉frontend.components.table.core꞉> 
+1641769200
+cljs꞉frontend.components.table.core꞉> 
+1641769200
+cljs꞉frontend.components.table.core꞉> 
+1641855540
+cljs꞉frontend.components.table.core꞉> 
+1664661540
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getDayTimeRange
+cljs꞉frontend.components.table.core꞉> 
+[1641769200 1641852000]
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getDayTimeRange
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/could-be-jsx
+cljs꞉frontend.components.table.core꞉> 
+"08:00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (defn isEpochInRange [epoch range] 
+  (& (>= (first range) epoch) (<= (second range) epoch)))
+null
+IllegalArgumentException: No method in multimethod 'parse' for dispatch value: &
+	clojure.lang.MultiFn.getFn (MultiFn.java:156)
+	clojure.lang.MultiFn.invoke (MultiFn.java:251)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4080)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4078)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4085)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4083)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4109)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	cljs.analyzer/analyze (analyzer.cljc:4369)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze (analyzer.cljc:4362)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze (analyzer.cljc:4360)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/fn--2979 (analyzer.cljc:2358)
+	cljs.analyzer/fn--2979 (analyzer.cljc:2354)
+	clojure.lang.MultiFn.invoke (MultiFn.java:252)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4080)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4078)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4085)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4083)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4109)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	cljs.analyzer/analyze (analyzer.cljc:4369)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze (analyzer.cljc:4362)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze (analyzer.cljc:4360)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze-fn-method-body (analyzer.cljc:2147)
+	cljs.analyzer/analyze-fn-method-body (analyzer.cljc:2145)
+	cljs.analyzer/analyze-fn-method (analyzer.cljc:2169)
+	cljs.analyzer/analyze-fn-method (analyzer.cljc:2149)
+	cljs.analyzer/analyze-fn-methods-pass2*/fn--2921 (analyzer.cljc:2206)
+	clojure.core/mapv/fn--8535 (core.clj:6979)
+	clojure.core.protocols/fn--8249 (protocols.clj:168)
+	clojure.core.protocols/fn--8249 (protocols.clj:124)
+	clojure.core.protocols/fn--8204/G--8199--8213 (protocols.clj:19)
+	clojure.core.protocols/seq-reduce (protocols.clj:31)
+	clojure.core.protocols/fn--8234 (protocols.clj:75)
+	clojure.core.protocols/fn--8234 (protocols.clj:75)
+	clojure.core.protocols/fn--8178/G--8173--8191 (protocols.clj:13)
+	clojure.core/reduce (core.clj:6886)
+	clojure.core/mapv (core.clj:6970)
+	clojure.core/mapv (core.clj:6970)
+	cljs.analyzer/analyze-fn-methods-pass2* (analyzer.cljc:2206)
+	cljs.analyzer/analyze-fn-methods-pass2* (analyzer.cljc:2205)
+	cljs.analyzer/analyze-fn-methods-pass2 (analyzer.cljc:2209)
+	cljs.analyzer/analyze-fn-methods-pass2 (analyzer.cljc:2208)
+	cljs.analyzer/fn--2927/fn--2937 (analyzer.cljc:2257)
+	cljs.analyzer/fn--2927 (analyzer.cljc:2257)
+	cljs.analyzer/fn--2927 (analyzer.cljc:2211)
+	clojure.lang.MultiFn.invoke (MultiFn.java:252)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4080)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4078)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4085)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4083)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4109)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	cljs.analyzer/analyze (analyzer.cljc:4369)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4110)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	cljs.analyzer/analyze (analyzer.cljc:4369)
+
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.core/isEpochInRange
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isEpochInRange
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isEpochInRange
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isEpochInRange
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isEpochInRange
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentDay
+cljs꞉frontend.components.table.core꞉> 
+(0 1)
+cljs꞉frontend.components.table.core꞉> 
+2
+cljs꞉frontend.components.table.core꞉> 
+(0)
+cljs꞉frontend.components.table.core꞉> 
+(1)
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+9
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+(intermediate value).getUTCYear is not a function
+cljs꞉frontend.components.table.core꞉> 
+122
+cljs꞉frontend.components.table.core꞉> 
+2022
+cljs꞉frontend.components.table.core꞉> 
+10
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentYear
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:44
+ Use of undeclared Var frontend.components.table.core/month
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:50
+ Use of undeclared Var frontend.components.table.core/year
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:18
+ Use of undeclared Var frontend.components.table.core/day
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:16
+ Use of undeclared Var frontend.components.table.core/dateRange
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#object[cljs$core$range]
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateRange
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateRange
+cljs꞉frontend.components.table.core꞉> 
+([1664575200 1664661540] [1664661600 1664747940])
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+({nil [1664575200 1664661540]} {nil [1664661600 1664747940]})
+cljs꞉frontend.components.table.core꞉> keyword 1
+1
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+({:1 [1664575200 1664661540]} {:2 [1664661600 1664747940]})
+cljs꞉frontend.components.table.core꞉> 
+({:1 [1664575200 1664661540]} {:2 [1664661600 1664747940]})
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+([1664575200 1664661540] [1664661600 1664747940])
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+cljs.core.map.call(...).call is not a function
+cljs꞉frontend.components.table.core꞉> 
+([1664575200 1664661540] [1664661600 1664747940])
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatDay
+cljs꞉frontend.components.table.core꞉> 
+({:1 [1664575200 1664661540]} {:2 [1664661600 1664747940]})
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (1) passed to cljs.core/assoc
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+({:1 [1664575200 1664661540]} {:2 [1664661600 1664747940]})
+cljs꞉frontend.components.table.core꞉> 
+{:1 [1664575200 1664661540], :2 [1664661600 1664747940]}
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getMapDayRange
+cljs꞉frontend.components.table.core꞉> 
+{:1 [1664575200 1664661540], :2 [1664661600 1664747940]}
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: Cannot read properties of undefined (reading 'cljs$core$IFn$_invoke$arity$2')
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of undefined (reading 'call')
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function frontend$components$table$core$isEpochInRange(epoch,range){
+return (((epoch >= cljs.core.first.call(null,range))) && ((epoch <= cljs.core.second.call(null,range))));
+} is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+[1664575200 1664661540]
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getMapDayRange
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isDataInRange
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isDataInRange
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isDataInRange
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+true.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+true.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+[{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}]
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:27
+ Use of undeclared Var frontend.components.table.core/isDataInDay
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:6
+ Use of undeclared Var frontend.components.table.core/isDataInDay
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.core/isDataInDay
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isDataInDay
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/dateRange
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+1664604000
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+{:1 [1664575200 1664661540], :2 [1664661600 1664747940]}
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+:epoch is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/isDataInRange
+cljs꞉frontend.components.table.core꞉> 
+1664604000
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+true
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664636400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No item 0 in vector of length 0
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664604000, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+[[:epoch 1664604000 [:epoch 1664618400]] [:attribute "in" [:attribute "out"]]]
+cljs꞉frontend.components.table.core꞉> 
+[nil nil]
+cljs꞉frontend.components.table.core꞉> 
+[[:epoch 1664604000 [:epoch 1664618400]] [:attribute "in" [:attribute "out"]]]
+cljs꞉frontend.components.table.core꞉> 
+[nil nil]
+cljs꞉frontend.components.table.core꞉> 
+{:epoch 1664618400, :attribute "out"}
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"})
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664636400, :attribute "out"} ({:epoch 1664625600, :attribute "in"} ({:epoch 1664618400, :attribute "out"} ({:epoch 1664604000, :attribute "in"} ()))))
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664636400, :attribute "out"} ({:epoch 1664625600, :attribute "in"} ({:epoch 1664618400, :attribute "out"} {:epoch 1664604000, :attribute "in"})))
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664636400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664618400, :attribute "out"} [:epoch 1664604000] [:attribute "in"])
+cljs꞉frontend.components.table.core꞉> 
+([:epoch 1664636400] [:attribute "out"] [:epoch 1664625600] [:attribute "in"] [:epoch 1664618400] [:attribute "out"] [:epoch 1664604000] [:attribute "in"])
+cljs꞉frontend.components.table.core꞉> 
+([:epoch 1664636400] [:attribute "out"] [:epoch 1664625600] [:attribute "in"] [:epoch 1664618400] [:attribute "out"] [:epoch 1664604000] [:attribute "in"])
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664636400, :attribute "out"} ({:epoch 1664625600, :attribute "in"} ({:epoch 1664618400, :attribute "out"} {:epoch 1664604000, :attribute "in"})))
+cljs꞉frontend.components.table.core꞉> 
+"n"
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Invalid arity: 0
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664636400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664618400, :attribute "out"} [:epoch 1664604000] [:attribute "in"])
+cljs꞉frontend.components.table.core꞉> 
+(#object[cljs$core$apply] {:epoch 1664636400, :attribute "out"} (#object[cljs$core$apply] {:epoch 1664625600, :attribute "in"} (#object[cljs$core$apply] {:epoch 1664618400, :attribute "out"} {:epoch 1664604000, :attribute "in"})))
+cljs꞉frontend.components.table.core꞉> 
+false
+cljs꞉frontend.components.table.core꞉> 
+({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"})
+cljs꞉frontend.components.table.core꞉> 
+([:epoch 1664636400] [:attribute "out"])
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+[() ()]
+cljs꞉frontend.components.table.core꞉> 
+(1 2)
+cljs꞉frontend.components.table.core꞉> 
+1 {:epoch 1664604000, :attribute in}
+2 {:epoch 1664618400, :attribute out}
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+1 [{:epoch 1664604000, :attribute in} {:epoch 1664618400, :attribute out} {:epoch 1664625600, :attribute in} {:epoch 1664636400, :attribute out}]
+2 [{:epoch 1664604000, :attribute in} {:epoch 1664618400, :attribute out} {:epoch 1664625600, :attribute in} {:epoch 1664636400, :attribute out}]
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:13
+ Use of undeclared Var frontend.components.table.core/data
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: 1 is not ISeqable
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+cljs.core.map.call(...).call is not a function
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+cljs.core.map.call(...).call is not a function
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (0) passed to frontend.components.table.core/formatData
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (1) passed to frontend.components.table.core/formatData
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: No protocol method ICollection.-conj defined for type function: function cljs$core$keyword(var_args){
+; var G__10102 = arguments.length;
+switch (G__10102) {
+case 1:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
+
+break;
+case 2:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
+
+break;
+default:
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
+
+}
+}
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: No protocol method ICollection.-conj defined for type function: function cljs$core$keyword(var_args){
+; var G__10102 = arguments.length;
+switch (G__10102) {
+case 1:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
+
+break;
+case 2:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
+
+break;
+default:
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
+
+}
+}
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:3:10
+ Wrong number of args (2) passed to cljs.core/assoc
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; Error: No protocol method ICollection.-conj defined for type function: function cljs$core$keyword(var_args){
+; var G__10102 = arguments.length;
+switch (G__10102) {
+case 1:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
+
+break;
+case 2:
+return cljs.core.keyword.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
+
+break;
+default:
+throw (new Error(["Invalid arity: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(arguments.length)].join('')));
+
+}
+}
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: cljs.core.filter.call(...).call is not a function
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/formatData
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+("08:00:00" "12:00:00" "14:00:00" "17:00:00")
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getRow
+cljs꞉frontend.components.table.core꞉> 
+"(\"08:00:00\" \"12:00:00\" \"14:00:00\" \"17:00:00\")"
+cljs꞉frontend.components.table.core꞉> 
+"08:00:0012:00:0014:00:0017:00:00"
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/getRow
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+"08:00:0012:00:0014:00:0017:00:00"
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/currentMonth
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.core.currentMonth.call is not a function
+cljs꞉frontend.components.table.core꞉> 
+"9"
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+(() ())
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+(({:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}) ())
+cljs꞉frontend.components.table.core꞉> 
+"08:00:00"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:4
+ Use of undeclared Var frontend.subs/Card
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:41
+ Use of undeclared Var frontend.subs/TableTitle
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:10
+ Use of undeclared Var frontend.subs/Table
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:17
+ Use of undeclared Var frontend.subs/formatData
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:4:29
+ No such namespace: r, could not locate r.cljs, r.cljc, or JavaScript source providing "r"
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:29
+ Use of undeclared Var r/subscribe
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.subs꞉> 
+dev mode
+
+#object[frontend.views.main.main_panel]
+cljs꞉frontend.core꞉> 
+dev mode
+
+#object[frontend.views.main.main_panel]
+cljs꞉frontend.core꞉> 
+dev mode
+
+#object[frontend.views.main.main_panel]
+cljs꞉frontend.core꞉> 
+dev mode
+
+#object[frontend.views.main.main_panel]
+cljs꞉frontend.core꞉> 
+#'frontend.components.table.core/data
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+#'frontend.components.table.core/data
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+#object[reagent.ratom.Reaction {:val [{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}]}]
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+[{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}]
+; [line 1, col 15] The map literal starting with :test on line 1 column 8 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+[{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"}]
+; [line 1, col 14] The map literal starting with :test on line 1 column 7 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+
+; [line 1, col 166] The map literal starting with :test on line 1 column 159 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+
+; [line 1, col 166] The map literal starting with :test on line 1 column 159 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+
+; [line 1, col 166] The map literal starting with :test on line 1 column 159 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+[{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"} {:test "test"}]
+cljs꞉frontend.events꞉> 
+({:id :coeffects, :before #object[re_frame$cofx$coeffects_before], :after nil} {:id :do-fx, :before nil, :after #object[re_frame$fx$do_fx_after]} {:id :inject-global-interceptors, :before #object[re_frame$std_interceptors$inject_global_interceptors_before], :after nil} {:id :fx-handler, :before #object[re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before], :after nil})
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Key must be integer
+cljs꞉frontend.events꞉> 
+{:name "re-frame", :data [{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"} {:epoch 1.664720353602E9, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+{:name "re-frame", :data [{:epoch 1664604000, :attribute "in"} {:epoch 1664618400, :attribute "out"} {:epoch 1664625600, :attribute "in"} {:epoch 1664636400, :attribute "out"} {:epoch 1664720373681, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+##NaN
+cljs꞉frontend.events꞉> 
+##NaN
+cljs꞉frontend.events꞉> 
+##NaN
+cljs꞉frontend.events꞉> 
+1.664720482976E9
+cljs꞉frontend.events꞉> 
+:attribute
+cljs꞉frontend.events꞉> 
+1664720488
+cljs꞉frontend.events꞉> 
+({:id :coeffects, :before #object[re_frame$cofx$coeffects_before], :after nil} {:id :do-fx, :before nil, :after #object[re_frame$fx$do_fx_after]} {:id :inject-global-interceptors, :before #object[re_frame$std_interceptors$inject_global_interceptors_before], :after nil} {:id :fx-handler, :before #object[re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before], :after nil})
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+:repl/exception!
+; 
+; Execution error (ReferenceError) at (<cljs repl>:1).
+windows is not defined
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+#'frontend.events/updateLocalStorage
+cljs꞉frontend.events꞉> 
+#'frontend.events/queryLocalStorage
+cljs꞉frontend.events꞉> 
+"{:name \"re-frame\", :data [{:epoch 1664721337, :attribute \"in\"}]}"
+cljs꞉frontend.events꞉> 
+"{:name \"re-frame\", :data [{:epoch 1664721463, :attribute \"in\"}]}"
+cljs꞉frontend.events꞉> 
+"{:name \"re-frame\", :data [{:epoch 1664721463, :attribute \"in\"}]}"
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var cljs.reader/read-string
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.events/read-string
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+"{:name \"re-frame\", :data [{:epoch 1664721463, :attribute \"in\"}]}"
+cljs꞉frontend.events꞉> 
+"{:name \"re-frame\", :data [{:epoch 1664721463, :attribute \"in\"}]}"
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.events/cljs
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:22
+ Use of undeclared Var frontend.events/read-string
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.events/read-string
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.events/read-string
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+({:id :coeffects, :before #object[re_frame$cofx$coeffects_before], :after nil} {:id :do-fx, :before nil, :after #object[re_frame$fx$do_fx_after]} {:id :inject-global-interceptors, :before #object[re_frame$std_interceptors$inject_global_interceptors_before], :after nil} {:id :fx-handler, :before #object[re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before], :after nil})
+cljs꞉frontend.events꞉> 
+{:name "re-frame", :data [{:epoch 1664721463, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+({:id :coeffects, :before #object[re_frame$cofx$coeffects_before], :after nil} {:id :do-fx, :before nil, :after #object[re_frame$fx$do_fx_after]} {:id :inject-global-interceptors, :before #object[re_frame$std_interceptors$inject_global_interceptors_before], :after nil} {:id :fx-handler, :before #object[re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before], :after nil})
+cljs꞉frontend.events꞉> 
+{:name "re-frame", :data [{:epoch 1664721654, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+#object[Function]
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:33
+ Use of undeclared Var frontend.events/log-i
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+{:db {:data ({:epoch 1664775097, :attribute "in"})}}
+cljs꞉frontend.events꞉> 
+#object[reagent.ratom.Reaction {:val ({:id #uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a", :epoch 1664775172, :attribute "in"})}]
+cljs꞉frontend.components.table.core꞉> 
+({:id #uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a", :epoch 1664775172, :attribute "in"})
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+({:id #uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a", :epoch 1664775172, :attribute "in"})
+cljs꞉frontend.components.table.core꞉> 
+{:id #uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a", :epoch 1664775172, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+#uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a"
+cljs꞉frontend.components.table.core꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Assert failed: (string? s)
+cljs꞉frontend.components.table.core꞉> 
+"22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a"
+cljs꞉frontend.components.table.core꞉> 
+":id"
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (2) passed to cljs.core/deref
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:5
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (2) passed to cljs.core/deref
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:5
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.core/<-
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:5
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+{:id #uuid "22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a", :epoch 1664775172, :attribute "in"}
+cljs꞉frontend.components.table.core꞉> 
+"22f056bb-0e97-46b9-ab4f-fc8f8a8efc2a"
+cljs꞉frontend.components.table.core꞉> 
+"function cljs$core$random_uuid(){\r\nvar hex = (function cljs$core$random_uuid_$_hex(){\r\nreturn cljs.core.rand_int((16)).toString((16));\r\n});\r\nvar rhex = ((8) | ((3) & cljs.core.rand_int((16)))).toString((16));\r\nreturn cljs.core.uuid([cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),\"-\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),\"-\",\"4\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),\"-\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(rhex),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),\"-\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex()),cljs.core.str.cljs$core$IFn$_invoke$arity$1(hex())].join(''));\r\n}"
+cljs꞉frontend.events꞉> 
+"b2be2958-207e-4379-b567-49c4a8cf9e13"
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+({:id "2687fe29-4e14-4f37-8db6-b7a1fa9d53b9", :epoch 1664775591, :attribute "in"})
+cljs꞉frontend.components.table.core꞉> 
+"2687fe29-4e14-4f37-8db6-b7a1fa9d53b9"
+cljs꞉frontend.components.table.core꞉> 
+({:id :coeffects, :before #object[re_frame$cofx$coeffects_before], :after nil} {:id :do-fx, :before nil, :after #object[re_frame$fx$do_fx_after]} {:id :inject-global-interceptors, :before #object[re_frame$std_interceptors$inject_global_interceptors_before], :after nil} {:id :fx-handler, :before #object[re_frame$std_interceptors$fx_handler__GT_interceptor_$_fx_handler_before], :after nil})
+cljs꞉frontend.events꞉> 
+{:data (:id "eac7ca9e-770b-4175-b78e-a08d77905adb" {:epoch 1664777778, :attribute "in"} "f55a5923-8ee0-416d-a4d4-5fc47c0dc0ad" :id {:epoch 1664777756, :attribute "in"} {:epoch 1664777720, :attribute "in"} "a805fd36-96c5-44d6-9a89-424224321db6" :id {:id "2687fe29-4e14-4f37-8db6-b7a1fa9d53b9", :epoch 1664775591, :attribute "in"})}
+cljs꞉frontend.events꞉> 
+{:data ({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})}
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1:1
+ list already refers to: cljs.core/list being replaced by: frontend.events/list
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:7
+ Use of undeclared Var frontend.events/currentlist
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+
+; [line 1, col 24] The map literal starting with :id on line 1 column 19 contains 1 form(s). Map literals must contain an even number of forms.
+; [line 1, col 2] Unmatched delimiter ).
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:7
+ Use of undeclared Var frontend.events/currentlist
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:30
+ Wrong number of args (0) passed to :id
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:6
+ Use of undeclared Var frontend.events/currentlist
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:6
+ Use of undeclared Var frontend.events/currentlist
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Invalid arity: 0
+cljs꞉frontend.events꞉> 
+#'frontend.events/currentlist
+cljs꞉frontend.events꞉> 
+[{:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"}]
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :redef --------------------------------------------------------
+;  Resource: <eval>:1:1
+ comp already refers to: cljs.core/comp being replaced by: frontend.events/comp
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.events/compareId
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.events/compareId
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.events/compareId
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.events/compareId
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+#'frontend.events/currentlist
+cljs꞉frontend.events꞉> 
+[{:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"}]
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: pred.call is not a function
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#object[Function]
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+:repl/print-error!
+; The result object failed to print. It is available via *1 if you want to interact with it.
+; The exception was: 
+; TypeError: pred.call is not a function
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+dev mode
+
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:33
+ Use of undeclared Var frontend.events/id
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/compareId
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+#'frontend.events/delete-log
+cljs꞉frontend.events꞉> 
+#'frontend.events/delete-log
+cljs꞉frontend.events꞉> 
+#'frontend.events/delete-log
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+{:data ({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664782800, :attribute "in"})}
+cljs꞉frontend.events꞉> 
+#'frontend.events/delete-log
+cljs꞉frontend.events꞉> 
+#'frontend.events/delete-log
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:4:26
+ Use of undeclared Var frontend.events/modifier
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+"be7e1a9b-b184-4d17-bb1d-fc713d4111b0"
+cljs꞉frontend.events꞉> 
+1664787543
+cljs꞉frontend.events꞉> 
+#'frontend.events/dummyDb
+cljs꞉frontend.events꞉> 
+#'frontend.events/dummyDb
+cljs꞉frontend.events꞉> 
+{:data [{:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+{:data [{:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"} {:id "e68a2e26-a460-4441-920d-50bc654c3a41", :epoch 1664788348, :attribute "in"}]}
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Invalid arity: 0
+cljs꞉frontend.events꞉> 
+([:data [{:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"}]])
+cljs꞉frontend.events꞉> 
+#'frontend.events/dummyDb
+cljs꞉frontend.events꞉> 
+{:data ({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})}
+cljs꞉frontend.events꞉> 
+{:data ({:id "8f7cc5af-6153-42ac-9e52-269939ff3af8", :epoch 1664788454, :attribute "modifier"} {:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})}
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+Invalid arity: 0
+cljs꞉frontend.events꞉> 
+([:data ({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})])
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+()
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.events/&
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#'frontend.events/currentlist
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+#object[Function]
+cljs꞉frontend.events꞉> 
+({:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+nil
+cljs꞉frontend.events꞉> 
+#'frontend.components.table.core/Item
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:20
+ Use of undeclared Var frontend.components.table.core/item
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/Item
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+6.006713391890181E-13
+cljs꞉frontend.components.table.core꞉> 
+6.006713353020544E-10
+cljs꞉frontend.components.table.core꞉> 
+1664803936087
+cljs꞉frontend.components.table.core꞉> 
+1.664803946652E9
+cljs꞉frontend.components.table.core꞉> 
+#'frontend.components.table.item/openModal
+cljs꞉frontend.components.table.item꞉> 
+#'frontend.components.table.item/closeModal
+cljs꞉frontend.components.table.item꞉> 
+false
+cljs꞉frontend.components.table.item꞉> 
+false
+cljs꞉frontend.components.table.item꞉> 
+true
+cljs꞉frontend.components.table.item꞉> 
+false
+cljs꞉frontend.components.table.item꞉> 
+nil
+cljs꞉frontend.components.table.item꞉> 
+true
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.views/default-db
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.views꞉> 
+{:name "re-frame", :data []}
+cljs꞉frontend.components.table.item꞉> 
+#object[reagent.ratom.Reaction {:val ({:id "536d11cf-46af-479b-bd45-f437a0c565c9", :epoch 1664814193, :attribute "out"} {:id "03d31a3c-49cb-4baa-98fb-8c293621ec14", :epoch 1664795816, :attribute "in"} {:id "e78931b4-14fd-4b67-8644-d64f206fc873", :epoch 1664791704, :attribute "out"} {:id "1198c252-7549-4940-9c67-8e9dfed111d9", :epoch 1664782800, :attribute "in"})}]
+cljs꞉frontend.components.table.item꞉> 
+({:id "536d11cf-46af-479b-bd45-f437a0c565c9", :epoch 1664814193, :attribute "out"} {:id "03d31a3c-49cb-4baa-98fb-8c293621ec14", :epoch 1664795816, :attribute "in"} {:id "e78931b4-14fd-4b67-8644-d64f206fc873", :epoch 1664791704, :attribute "out"} {:id "1198c252-7549-4940-9c67-8e9dfed111d9", :epoch 1664782800, :attribute "in"})
+cljs꞉frontend.components.table.item꞉> 
+{:id "536d11cf-46af-479b-bd45-f437a0c565c9", :epoch 1664814193, :attribute "out"}
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:14
+ Use of undeclared Var frontend.components.table.item/testEpoch
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:18
+ Use of undeclared Var frontend.components.table.item/testEpoch
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+cljs꞉frontend.components.table.item꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of null (reading 'call')
+clj꞉frontend.components.table.item꞉> 
+nil
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of null (reading 'call')
+cljs꞉frontend.components.table.item꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+Cannot read properties of null (reading 'call')
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+#'frontend.components.table.item/Item
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+frontend.components.table.item.testEpoch.call is not a function
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:17
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+cljs꞉frontend.components.table.item꞉> 
+#object[Moment Tue Jan 20 1970 07:26:54 GMT+0100]
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.item/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+1664819517
+cljs꞉frontend.components.table.item꞉> 
+#object[Moment Mon Oct 03 2022 18:23:13 GMT+0200]
+cljs꞉frontend.components.table.item꞉> 
+nil
+cljs꞉frontend.components.table.item꞉> 
+#object[Moment Mon Oct 03 2022 21:44:14 GMT+0200]
+cljs꞉frontend.components.table.item꞉> 
+1664826254
+cljs꞉frontend.components.table.item꞉> 
+{:data
+ ({:id "c881a667-de5f-43bd-b774-847fa8197732", :epoch 1664827453, :attribute "modifier"}
+  {:id "03b50481-2ea9-477a-bf31-5c97be20f646", :epoch 1664778272, :attribute "in"})}
+; ------ REPL Error while processing ---------------------------------------------
+; (ns frontend.events
+  (:require [cljs.reader :refer [read-string]]
+            [re-frame.core :as re-frame]
+            [frontend.db :refer [default-db]]
+            [frontend.events :as events]))
+Circular dependency detected: frontend.events -> frontend.events
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:30
+ Use of undeclared Var frontend.components.table.item/default-db
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:3:4
+ Use of undeclared Var frontend.components.table.item/read-string
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-event-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-event-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-event-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-event-fx
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-ns ------------------------------------------------
+;  Resource: <eval>:1:2
+ No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame" (Please check that namespaces with dashes use underscores in the ClojureScript file name)
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var re-frame/reg-event-db
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:12
+ Use of undeclared Var frontend.events/testMap
+--------------------------------------------------------------------------------
+
+clj꞉frontend.events꞉> 
+#'frontend.events/testMap
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No protocol method IAssociative.-assoc defined for type number: 1664827403
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No protocol method IAssociative.-assoc defined for type number: 1664827403
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+No protocol method IAssociative.-assoc defined for type number: 1664827403
+cljs꞉frontend.events꞉> 
+{:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488", :epoch 1664827403, :attribute "in"}
+cljs꞉frontend.events꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (2) passed to cljs.core/update-in
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.events꞉> 
+{:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488", :epoch 1664827413, :attribute "in"}
+cljs꞉frontend.events꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+10.call is not a function
+cljs꞉frontend.events꞉> 
+{:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488", :epoch 10, :attribute "in"}
+cljs꞉frontend.events꞉> 
+{:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488", :epoch 10, :attribute "in"}
+cljs꞉frontend.events꞉> 
