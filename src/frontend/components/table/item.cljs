@@ -14,15 +14,17 @@
 
 (defn modal
   [item opened handler]
-  (let [timeAtom (atom nil)]
+  (let [timeAtom (atom (-> moment
+                           (.unix (:epoch item))))]
     [Modal
      {:title "Change time log"
       :open @opened
       :onOk (fn [e]
               (.stopPropagation e)
-              (r/dispatch [:update-log (:id item) (.unix @timeAtom)]))
+              (r/dispatch [:update-log (:id item) (.unix @timeAtom)])
+              (handler false))
       :onCancel (fn [e] (.stopPropagation e) (handler false))}
-     [:div [:span (:id item)]
+     [:div
       [TimePicker
        {:defaultValue (-> moment
                           (.unix (:epoch item)))
