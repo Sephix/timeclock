@@ -2841,3 +2841,743 @@ cljs꞉frontend.events꞉> 
 cljs꞉frontend.events꞉> 
 {:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488", :epoch 10, :attribute "in"}
 cljs꞉frontend.events꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+nil
+cljs꞉cljs.user꞉> 
+2
+cljs꞉frontend.components.table.new-date-modal꞉> 
+2
+cljs꞉frontend.components.table.new-date-modal꞉> 
+2
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#object[cljs$core$set]
+; [line 2, col 32] Unmatched delimiter ).
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#{"/,/"}
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#{"string" "The" "test"}
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function (p1__17845_SHARP_){
+clojure.string.split.call(null,p1__17845_SHARP_,/,/);
+
+return "The,test,string";
+} is not ISeqable
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+function (p1__17847_SHARP_){
+clojure.string.split.call(null,p1__17847_SHARP_,/,/);
+
+return "The,test,string";
+} is not ISeqable
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#object[Function]
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#object[Function]
+cljs꞉frontend.components.table.new-date-modal꞉> 
+["The" "test" "string"]
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#{"string" "The" "test"}
+cljs꞉frontend.components.table.new-date-modal꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.components.table.new-date-modal/chan
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.components.table.new-date-modal/chan
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/take!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/clojure
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:29
+ Use of undeclared Var frontend.components.table.new-date-modal/chan
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:34
+ Use of undeclared Var frontend.components.table.new-date-modal/put!
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:39
+ Use of undeclared Var frontend.components.table.new-date-modal/take!
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:50
+ Use of undeclared Var frontend.components.table.new-date-modal/async
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:9
+ Use of undeclared Var frontend.components.table.new-date-modal/chan
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/take!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :fn-arity -----------------------------------------------------
+;  Resource: <eval>:1:1
+ Wrong number of args (0) passed to cljs.core.async/put!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+52
+
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#'frontend.components.table.new-date-modal/c
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/go
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:28
+ Use of undeclared Var frontend.components.table.new-date-modal/<!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/clojure
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:34
+ Use of undeclared Var frontend.components.table.new-date-modal/<!
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:37
+ Use of undeclared Var frontend.components.table.new-date-modal/go
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:45
+ Use of undeclared Var frontend.components.table.new-date-modal/async
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/go
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:28
+ Use of undeclared Var frontend.components.table.new-date-modal/<!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/>!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+>! used not in (go ...) block
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+>! used not in (go ...) block
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#'frontend.components.table.new-date-modal/c
+cljs꞉frontend.components.table.new-date-modal꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+>! used not in (go ...) block
+cljs꞉frontend.components.table.new-date-modal꞉> 
+:repl/exception!
+; 
+; Execution error (Error) at (<cljs repl>:1).
+>! used not in (go ...) block
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/clojure
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:53
+ Use of undeclared Var frontend.components.table.new-date-modal/async
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+true
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/close!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/clojure
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:48
+ Use of undeclared Var frontend.components.table.new-date-modal/close!
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:60
+ Use of undeclared Var frontend.components.table.new-date-modal/async
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.new-date-modal/close!
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.new-date-modal꞉> 
+test
+
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉frontend.components.table.new-date-modal꞉> 
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉frontend.components.table.new-date-modal꞉> 
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+true
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+
+; The previously used runtime disappeared. Will attempt to pick a new one when available but your state might be gone.
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+cljs꞉frontend.components.table.new-date-modal꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[re_frame$subs$subs_handler_fn]
+cljs꞉frontend.subs꞉> 
+#object[re_frame$subs$subs_handler_fn]
+cljs꞉frontend.subs꞉> 
+#'frontend.components.table.core/main
+cljs꞉frontend.components.table.core꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+#object[Function]
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ REPL Error while processing ---------------------------------------------
+; (.moment)
+null
+Cannot use dot form on nil
+{:form (. nil moment)}
+ExceptionInfo: Cannot use dot form on nil
+	shadow.build.cljs-hacks/shadow-analyze-dot (cljs_hacks.cljc:478)
+	shadow.build.cljs-hacks/shadow-analyze-dot (cljs_hacks.cljc:476)
+	shadow.build.cljs-hacks/install-hacks!/fn--10339 (cljs_hacks.cljc:1138)
+	clojure.lang.MultiFn.invoke (MultiFn.java:252)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4080)
+	cljs.analyzer/analyze-seq* (analyzer.cljc:4078)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4085)
+	cljs.analyzer/analyze-seq*-wrap (analyzer.cljc:4083)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4109)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	cljs.analyzer/analyze (analyzer.cljc:4369)
+	cljs.analyzer/analyze (analyzer.cljc:4352)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4110)
+	cljs.analyzer/analyze-seq (analyzer.cljc:4087)
+	cljs.analyzer/analyze-form (analyzer.cljc:4296)
+	cljs.analyzer/analyze-form (analyzer.cljc:4293)
+	cljs.analyzer/analyze* (analyzer.cljc:4349)
+	cljs.analyzer/analyze* (analyzer.cljc:4341)
+	shadow.build.compiler/analyze/fn--13229 (compiler.clj:264)
+	shadow.build.compiler/analyze (compiler.clj:252)
+	shadow.build.compiler/analyze (compiler.clj:211)
+	shadow.cljs.repl/repl-compile/fn--14911/fn--14912 (repl.clj:449)
+	shadow.cljs.repl/repl-compile/fn--14911 (repl.clj:422)
+	shadow.cljs.repl/repl-compile (repl.clj:420)
+	shadow.cljs.repl/repl-compile (repl.clj:417)
+	shadow.cljs.repl/process-read-result (repl.clj:508)
+	shadow.cljs.repl/process-read-result (repl.clj:484)
+	shadow.cljs.repl/process-input (repl.clj:647)
+	shadow.cljs.repl/process-input (repl.clj:625)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:698)
+	shadow.cljs.devtools.server.worker.impl/fn--15436 (impl.clj:688)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111/fn--15119 (util.clj:269)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110/fn--15111 (util.clj:268)
+	shadow.cljs.devtools.server.util/server-thread/fn--15110 (util.clj:241)
+	java.lang.Thread.run (Thread.java:829)
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.table.core/
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.core/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:1
+ Use of undeclared Var frontend.components.table.core/moment
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.core꞉> 
+#object[hooks]
+cljs꞉frontend.components.table.NewDateModal꞉> 
+#object[hooks]
+cljs꞉frontend.components.table.NewDateModal꞉> 
+#object[hooks]
+cljs꞉frontend.components.table.NewDateModal꞉> 
+#object[hooks]
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:2:43
+ Use of undeclared Var frontend.components.table.item/item
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.item꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:20
+ Use of undeclared Var frontend.components.table.NewDateModal/arg
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.NewDateModal꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+window.moment is not a function
+cljs꞉frontend.components.table.NewDateModal꞉> 
+#'frontend.components.table.NewDateModal/NewDateModal
+cljs꞉frontend.components.table.NewDateModal꞉> 
+#object[hooks]
+cljs꞉frontend.components.table.NewDateModal꞉> 
+nil
+cljs꞉frontend.components.table.NewDateModal꞉> 
+nil
+cljs꞉frontend.components.table.NewDateModal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.NewDateModal/onOk
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:20
+ Use of undeclared Var frontend.components.table.NewDateModal/timeAtom
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.NewDateModal꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.NewDateModal/onOk
+--------------------------------------------------------------------------------
+
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:20
+ Use of undeclared Var frontend.components.table.NewDateModal/timeAtom
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.NewDateModal꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉> 
+nil
+; ------ WARNING - :undeclared-var -----------------------------------------------
+;  Resource: <eval>:1:2
+ Use of undeclared Var frontend.components.table.NewDateModal/attribute
+--------------------------------------------------------------------------------
+
+cljs꞉frontend.components.table.NewDateModal꞉> 
+; nREPL Connection was closed

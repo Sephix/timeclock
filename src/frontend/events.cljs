@@ -14,36 +14,29 @@
   []
   (read-string (js/window.localStorage.getItem "data")))
 
-(defn update-db
-  [db modifier]
+(defn new-time-log
+  [db modifier epoch]
   (update-in db
              [:data]
              conj
              {:id (-> (random-uuid)
                       .toString)
-              :epoch (quot (js/Date.now) 1000)
+              :epoch epoch
               :attribute modifier}))
+
+(defn update-db
+  [db modifier]
+  (new-time-log db modifier (quot (js/Date.now) 1000)))
 
 (defn log
   [mod]
   (let [db (queryLocalStorage)]
-    ;new-db (update-db db mod)
-    (js/console.log db)
-    (js/console.log (update-db db mod))
     (updateLocalStorage (update-db db mod))
     {:db (queryLocalStorage)}))
 
 (defn log-in [_ _] (log "in"))
 (defn log-out [_ _] (log "out"))
 
-(defn compareId
-  [id]
-  (js/console.log id)
-  (fn [seq]
-    (js/console.log seq)
-    (js/console.log (:id seq))
-    (js/console.log (not= (:id seq) id))
-    #(not= (:id seq) id)))
 (defn delete-log
   [_ events]
   (js/console.log events)
@@ -63,9 +56,9 @@
         epoch (nth events 2)
         db (queryLocalStorage)
         new-db
-          {:data (->> (:data db)
-                      (map
-                        (fn [item]
+          {:data (->>
+                   (:data db)
+                   (map (fn [item]
                           (if (not= (:id item) item-id)
                             item
                             (update-in item [:epoch] (constantly epoch))))))}]
@@ -73,18 +66,35 @@
     (updateLocalStorage new-db)
     {:db (queryLocalStorage)}))
 
-(def testMap
-  {:id "43dfa8a2-276c-49b0-b8e0-9856f8ce1488"
-   :epoch 1664827403
-   :attribute "in"})
+(defn show-time-modal [coeffects _]
+  (let [db  (:db coeffects)
+        new-db (update-in db [:new-date-modal] (constantly true))]
+    {:db new-db}))
+(defn close-new-time-modal [coeffects _]
+  (let [db  (:db coeffects)
+        new-db (update-in db [:new-date-modal] (constantly false))]
+    {:db new-db}))
 
-(update-in testMap [:epoch] (constantly 10))
+
+(defn new-time-log-modal [coeffects events]
+  (js/console.log coeffects events)
+  (let [db  (:db coeffects)
+        db-with-new-log (new-time-log db (second events) (nth events 2))
+        closed-modal-db (update-in db-with-new-log [:new-date-modal] (constantly false))]
+    (updateLocalStorage closed-modal-db)
+    {:db (queryLocalStorage)}))
 
 (re-frame/reg-fx :log-in reset-db)
 
 (re-frame/reg-fx :log-out reset-db)
 
 (re-frame/reg-fx :delete-log reset-db)
+
+(re-frame/reg-fx :show-new-time-modal reset-db)
+
+(re-frame/reg-fx :close-new-time-modal reset-db)
+
+(re-frame/reg-fx :new-time-log reset-db)
 
 (re-frame/reg-event-fx :log-in log-in)
 
@@ -93,6 +103,12 @@
 (re-frame/reg-event-fx :delete-log delete-log)
 
 (re-frame/reg-event-fx :update-log update-log)
+
+(re-frame/reg-event-fx :show-new-time-modal show-time-modal)
+
+(re-frame/reg-event-fx :close-new-time-modal close-new-time-modal)
+
+(re-frame/reg-event-fx :new-time-log new-time-log-modal)
 
 (re-frame/reg-event-db ::initialize-db (fn [_ _] (queryLocalStorage)))
 

@@ -1,9 +1,10 @@
 (ns frontend.components.table.core
-  (:require [frontend.components.antd.core :refer [Card Divider]]
+  (:require [frontend.components.antd.core :refer [Card Divider Button]]
             [frontend.events]
             [frontend.subs]
             [frontend.utils.date :refer [seconds->duration]]
             [frontend.components.table.item :refer [Item]]
+            [frontend.components.table.NewDateModal :refer [NewDateModal]]
             [goog.string :as gstring]
             [goog.string.format]
             [re-frame.core :as r]))
@@ -67,9 +68,15 @@
        dateRange))
 
 
-(def TableTitle (str currentMonthString " " (str (.getUTCFullYear (js/Date.)))))
-
-
+(defn TableTitle
+  []
+  [:div [:span (str currentMonthString " " (str (.getUTCFullYear (js/Date.))))]
+   [Button {:onClick #(r/dispatch [:show-new-time-modal])} "+"]
+   (let [modalOpened (r/subscribe [:new-date-modal])]
+     [NewDateModal @modalOpened
+      (fn [attribute epoch]
+        (r/dispatch [:new-time-log attribute epoch]))
+      #(r/dispatch [:close-new-time-modal])])])
 
 (defn timeReduce
   [row]
@@ -100,6 +107,6 @@
 
 (defn main
   []
-  [Card {:style {:margin "4px 0"}} [:h1 TableTitle]
+  [Card {:style {:margin "4px 0"}} [TableTitle]
    [:<> (Table (formatData @data))]])
 
